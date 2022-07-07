@@ -45,7 +45,9 @@ int log_write(char *prg_name, int type, char *msg){
 
     char *err_msg = 0;
     time_t now;
+    
     time(&now);
+
     char *laikas = ctime(&now);
     laikas[strcspn(laikas, "\n")] = 0;
 

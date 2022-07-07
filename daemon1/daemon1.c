@@ -25,7 +25,7 @@ int main(int argc, char *argv[]){
 
     while(action_flag == 1){
         log_write(argv[0], INFO, "im working");
-        sleep(10);
+        sleep(2);
     }
     return 0;
 
